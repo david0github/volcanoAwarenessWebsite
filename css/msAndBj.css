@@ -16,10 +16,23 @@ header {
     background: #222;
 }
 
+@keyframes yourAnimation{
+    0%{
+        transform: rotate(0) translateY(-15%);
+        opacity: 0;
+        }
+    100%{
+        transform: rotate(0) translateY(0);
+        opacity: 1;
+        }
+}
+
 header h5{
     font-size: 50px;
     color: springgreen;
     text-align: center;
+        animation: yourAnimation 1s forwards 0s linear;
+
 }
 
 header::after {
