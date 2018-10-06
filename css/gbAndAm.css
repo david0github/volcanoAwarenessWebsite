@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+@import url('https://fonts.googleapis.com/css?family=Arial:400,600');
 
 body {
     margin: 0;
     background: #222;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Arial';
     font-weight: 800;
 }
 
@@ -30,6 +30,7 @@ header {
 header h5{
     font-size: 50px;
     color: #222;
+    font-family: 'Arial';
     text-align: center;
         animation: yourAnimation 1s forwards 0s linear;
 
@@ -68,7 +69,7 @@ nav ul {
 
 nav li {
     display: inline-block;
-    margin-left: 50px;
+    margin-left: 30px;
     padding-top: 10px;
     padding-bottom: 20px;
     position: relative;
@@ -133,16 +134,16 @@ nav a:hover::before {
 
 h1 {
     color: whitesmoke;
-    font-family: fantasy;
     font-size: 300%;
     text-align: center;
+    font-family: 'Arial';
 }
 
 p {
     font-size: 140%;
     color: whitesmoke;
-    font-family: fantasy;
     text-align: center;
+    font-family: 'Arial';
 }
 
 .carousel-indicators {
@@ -173,7 +174,6 @@ p {
 .showcase-content3 ul li a {
     font-size: 20px;
     color: whitesmoke;
-    font-family: fantasy;
 }
 
 .showcase-content4 ul{
@@ -184,7 +184,6 @@ p {
 .showcase-content4 ul li a {
     font-size: 15px;
     color: whitesmoke;
-    font-family: fantasy;
 }
 
 #wholepage {
@@ -194,7 +193,7 @@ p {
 
 #showcase {
     background: sandybrown;
-    height: 300px;
+    height: 350px;
     text-align: center;
 }
 
@@ -296,7 +295,7 @@ p {
 }
 
 .footer-bottom p {
-    font-family: fantasy;
+    font-family: 'Arial';
     font-size: 16px;
     text-align: center color: firebrick;
     font-weight: 600;
